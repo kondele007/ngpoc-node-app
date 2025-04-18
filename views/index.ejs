@@ -37,9 +37,9 @@
     </div>  
     <script>
         let req = "<%= req %>"  ; 
-        var decodedString = req.split('&quot;').join('"')  ;  
+        var decodedString = req.split('&quot;').join('"');  
         //var wrapper = document.getElementById("reqCode"); 
-        var wrapper = this.template.querySelector("reqCode"); 
+        var wrapper = cmp.getElementById("reqCode"); 
         // or from a string by JSON.parse(str) method
         var dataStr = decodedString;
         try {
