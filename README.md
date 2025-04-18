@@ -1,2 +1,2 @@
 # CanvasDemo
-Node JS App for SalesforceSFDC Canvas App POC
+Node JS App to showcase Salesforce Canvas Integration
