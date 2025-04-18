@@ -1,6 +1,6 @@
 {
   "name": "ngpoc-node-app",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "NGPOC Node App",
   "main": "app.js",
   "scripts": {
@@ -13,7 +13,8 @@
   "keywords": [
     "Node.Js",
     "Canvas App",
-    "Salesforce"
+    "Salesforce",
+    "heroku"
   ],
   "author": "Mark Agola",
   "license": "MIT",
