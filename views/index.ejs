@@ -39,7 +39,7 @@
         let req = "<%= req %>"  ; 
         var decodedString = req.split('&quot;').join('"');  
         //var wrapper = document.getElementById("reqCode"); 
-        var wrapper = cmp.getElementById("reqCode"); 
+        var wrapper = component.find("NGPOC_NODEJS").getElementById("reqCode"); 
         // or from a string by JSON.parse(str) method
         var dataStr = decodedString;
         try {
