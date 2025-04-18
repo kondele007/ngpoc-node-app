@@ -1,7 +1,7 @@
 {
-  "name": "Salesfore_Canvas_Demo",
+  "name": "ngpoc-node-app",
   "version": "0.0.1",
-  "description": "Salesforce Canvas Demo",
+  "description": "NGPOC Node App",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +16,7 @@
     "Canvas App",
     "Salesforce"
   ],
-  "author": "Jitendra Zaa",
+  "author": "Mark Agola",
   "license": "MIT",
   "dependencies": {
     "base64-url": "^2.3.3",
