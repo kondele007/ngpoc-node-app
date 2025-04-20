@@ -5,7 +5,7 @@ var app = express();
 var crypto = require("crypto");
 var consumerSecretApp = process.env.CANVAS_CONSUMER_SECRET;
 
-console.log('consumer secret - '+consumerSecretApp);
+console.log('consumer secret - '+ consumerSecretApp);
 
 app.use(express.static(path.join(__dirname, 'views')));
 app.set('view engine', 'ejs');
@@ -35,7 +35,6 @@ app.post('/', function (req, res) {
         res.render('index', { title: envelope.context.user.userName, req : JSON.stringify(envelope) });
     }else{
         res.send("authentication failed");
-        console.log(envelope);
     } 
 })
  
