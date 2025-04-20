@@ -35,6 +35,7 @@ app.post('/', function (req, res) {
         res.render('index', { title: envelope.context.user.userName, req : JSON.stringify(envelope) });
     }else{
         res.send("authentication failed");
+        console.log(envelope);
     } 
 })
  
