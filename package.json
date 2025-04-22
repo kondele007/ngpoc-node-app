@@ -17,7 +17,6 @@
     "heroku"
   ],
   "author": "Mark Agola",
-  "license": "MIT",
   "dependencies": {
     "base64-url": "^2.3.3",
     "body-parser": "~1.6.2",
